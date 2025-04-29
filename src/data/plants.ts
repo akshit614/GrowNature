@@ -1,0 +1,103 @@
+import { Plant, CategoryType } from '../types';
+
+export const plants: Plant[] = [
+  {
+    id: 1,
+    name: 'Monstera Deliciosa',
+    category: 'indoor',
+    price: 34.99,
+    imageUrl: 'https://images.pexels.com/photos/6208087/pexels-photo-6208087.jpeg',
+    description: 'The Swiss Cheese Plant, famous for its natural leaf holes.',
+    isFeatured: true,
+  },
+  {
+    id: 2,
+    name: 'Fiddle Leaf Fig',
+    category: 'indoor',
+    price: 49.99,
+    imageUrl: 'https://images.pexels.com/photos/6208086/pexels-photo-6208086.jpeg',
+    description: 'Tall, dramatic plant with large, violin-shaped leaves.',
+    isFeatured: true,
+  },
+  {
+    id: 3,
+    name: 'Snake Plant',
+    category: 'indoor',
+    price: 24.99,
+    imageUrl: 'https://images.pexels.com/photos/2123482/pexels-photo-2123482.jpeg',
+    description: 'Easy-care, air-purifying plant with upright leaves.',
+    isFeatured: true,
+  },
+  {
+    id: 4,
+    name: 'Echeveria Elegans',
+    category: 'succulent',
+    price: 12.99,
+    imageUrl: 'https://images.pexels.com/photos/4505161/pexels-photo-4505161.jpeg',
+    description: 'Rosette-forming succulent with powder-blue leaves.',
+    isFeatured: true,
+  },
+  {
+    id: 5,
+    name: 'Lavender',
+    category: 'outdoor',
+    price: 15.99,
+    imageUrl: 'https://images.pexels.com/photos/6208086/pexels-photo-6208086.jpeg',
+    description: 'Fragrant, purple-flowering perennial herb.',
+    isFeatured: true,
+  },
+  {
+    id: 6,
+    name: 'Aloe Vera',
+    category: 'succulent',
+    price: 18.99,
+    imageUrl: 'https://images.pexels.com/photos/7141747/pexels-photo-7141747.jpeg',
+    description: 'Medicinal plant with fleshy, serrated leaves.',
+    isFeatured: false,
+  },
+  {
+    id: 7,
+    name: 'Peace Lily',
+    category: 'indoor',
+    price: 29.99,
+    imageUrl: 'https://images.pexels.com/photos/1084199/pexels-photo-1084199.jpeg',
+    description: 'Elegant white flowers and glossy leaves.',
+    isFeatured: false,
+  },
+  {
+    id: 8,
+    name: 'Rosemary',
+    category: 'outdoor',
+    price: 14.99,
+    imageUrl: 'https://images.pexels.com/photos/4750270/pexels-photo-4750270.jpeg',
+    description: 'Aromatic, needle-like leaves used in cooking.',
+    isFeatured: false,
+  },
+];
+
+export const categories: CategoryType[] = [
+  {
+    id: 'indoor',
+    name: 'Indoor Plants',
+    description: 'Brighten your living space with our beautiful indoor plants.',
+    imageUrl: 'https://images.pexels.com/photos/3097770/pexels-photo-3097770.jpeg',
+  },
+  {
+    id: 'outdoor',
+    name: 'Outdoor Plants',
+    description: 'Transform your garden with our vibrant outdoor plants.',
+    imageUrl: 'https://images.pexels.com/photos/1002703/pexels-photo-1002703.jpeg',
+  },
+  {
+    id: 'succulent',
+    name: 'Succulents',
+    description: 'Low-maintenance plants perfect for any space.',
+    imageUrl: 'https://images.pexels.com/photos/1470171/pexels-photo-1470171.jpeg',
+  },
+  {
+    id: 'pots',
+    name: 'Decorative Pots',
+    description: 'Stylish homes for your beloved plants.',
+    imageUrl: 'https://images.pexels.com/photos/1084199/pexels-photo-1084199.jpeg',
+  },
+];
